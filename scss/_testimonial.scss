@@ -1,0 +1,69 @@
+.testimonial {
+  margin-top: 200px;
+  height: 1000px;
+  font-family: sans-serif;
+  background: url(../assets/testimonialbg.png) no-repeat center/cover;
+  &-context {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+      color: #274c5b;
+      font-size: 50px;
+      margin: 8px 0 60px;
+    }
+    .avatar {
+      border-radius: 50%;
+    }
+    .star {
+      margin: 20px 0 25px;
+    }
+    .decription {
+      width: 780px;
+      color: #525c60;
+      text-align: center;
+      font-size: 18px;
+    }
+    .name {
+      color: #274c5b;
+      font-size: 25px;
+      margin-top: 20px;
+    }
+    .role {
+      color: #525c60;
+      font-size: 15px;
+      margin-bottom: 19px;
+    }
+  }
+
+  &__cards-wrapper {
+    padding-top: 102px;
+    margin-top: 102px;
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid #e0e0e0;
+    &__card-item {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      width: 211px;
+      height: 211px;
+      border: 7px solid #fff;
+      outline: 4px solid #7eb693;
+      background-color: #f1f1f1;
+      border-radius: 50%;
+    }
+    h2 {
+      font-size: 50px;
+      color: #274c5b;
+    }
+    p {
+      color: #274c5b;
+      font-weight: 600;
+      font-size: 18px;
+    }
+  }
+}
